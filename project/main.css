@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+ 
+* { font-family: 'Nanum Gothic', sans-serif; }
 body{
     -ms-overflow-style: none;
     }
@@ -218,6 +223,16 @@ section {
     margin-top: -10vh;
 }
 
+.pag-5 .inner .container{
+    height: 100vh;
+}
+.pag-5 .main-title {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+
   /*버튼내 옵션*/
   .btn-gradient {
     text-decoration: none;
@@ -267,13 +282,6 @@ section {
     text-align: center;
     color: white;
   }
-  .btn-gradient {
-    margin: 5px;
-  }
-  a[class*="btn"] {text-decoration: none;}
-  input[class*="btn"], 
-  button[class*="btn"] {border: 0;}
-  
-  
 
   
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
